@@ -5,7 +5,7 @@ import kotlin.random.Random
 
 fun main (){
     var carro = Veiculo("Volvo V40")
-    carro.acelerar(400)
+    carro.acelerar(10)
     carro.desacelerar()
     println("Velocidade atual: ${carro.getCurrentSpeed()} km/h")
 }
